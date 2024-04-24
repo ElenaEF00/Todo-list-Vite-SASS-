@@ -6,7 +6,7 @@
 
   .TodoItem__item {
     @include flex-container(row, center, space-between, 20px);
-    padding: 1rem;
+    margin-top: 15px;
     width: 100%;
 
     .checkbox {
@@ -36,7 +36,6 @@
 
     .text {
       @include flex-container(row, center, flex-start, 20px);
-      padding: 20px;
       width: 100%;
       text-align: left;
       font-weight: 600;
@@ -66,6 +65,7 @@
         padding: 5px;
         border-radius: 50px;
         border: none;
+        width: 100%;
       }
     }
 
